@@ -76,7 +76,7 @@ Installing the dependencies using MacPorts is very straightforward.
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:auroracoin-project/auroracoin.git auroracoin
+        git clone https://github.com/aurarad/auroracoin auroracoin
         cd auroracoin
 
 2.  Build auroracoind:
