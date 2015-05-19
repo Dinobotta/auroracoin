@@ -457,7 +457,7 @@ bool ParseMoney(const char* pszIn, int64& nRet)
 
 // safeChars chosen to allow simple messages/URLs/email addresses, but avoid anything
 // even possibly remotely dangerous like & or >
-static string safeChars("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890 .,;_/:?@");
+static string safeChars("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890éÉÝýÚúÍíÓóÐðÁáÆæÖöÞþ .,;_/:?@");
 string SanitizeString(const string& str)
 {
     string strResult;
