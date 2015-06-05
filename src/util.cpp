@@ -1028,8 +1028,12 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
     strMiscWarning = message;
 }
 
-boost::filesystem::path GetDefaultDataDir()
+boost::filesystem::path GetDefaultDataDir(bool fWalletDirUpgrade)
 {
+    // AUR-BioMike: fWalletDirUpgrade returns the old .AuroraCoin path.
+    // It is use to detect the old datadir location for renaming.
+    // At some point in the future we should remove this.
+
     namespace fs = boost::filesystem;
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\Bitcoin
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\Bitcoin
@@ -1037,7 +1041,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Unix: ~/.bitcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Auroracoin";
+    if (fWalletDirUpgrade)
+        return GetSpecialFolderPath(CSIDL_APPDATA) / "AuroraCoin";
+    else
+        return GetSpecialFolderPath(CSIDL_APPDATA) / "Auroracoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1049,10 +1056,16 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "Auroracoin";
+    if (fWalletDirUpgrade)
+        return pathRet / "AuroraCoin";
+    else
+        return pathRet / "Auroracoin";
 #else
     // Unix
-    return pathRet / ".auroracoin";
+    if (fWalletDirUpgrade)
+        return pathRet / ".AuroraCoin";
+    else
+        return pathRet / ".auroracoin";
 #endif
 #endif
 }
@@ -1080,7 +1093,27 @@ const boost::filesystem::path &GetDataDir(bool fNetSpecific)
             return path;
         }
     } else {
-        path = GetDefaultDataDir();
+        // AUR-BioMike: We need to push our upgrade magic here.
+        // Check if the old .AuroraCoin dir exists, and rename it if it does.
+        
+        fs::path pathOld;
+        
+        // AUR-BioMike: Get the new default data dir.
+        path = GetDefaultDataDir(false);
+        // AUR-BioMike: And the old one.
+        pathOld = GetDefaultDataDir(true);
+        // AUR-BioMike: Only move the data dir if the old is present and the new one is not.
+        if (!fs::exists(path) && fs::exists(pathOld)) {
+           fs::rename(pathOld, path);
+           // AUR-BioMike: AuroraCoin.conf renaming if present
+           fs::path confOld;
+           fs::path confNew;
+           confOld = path / "AuroraCoin.conf";
+           confNew = path / "auroracoin.conf";
+           if(fs::exists(confOld)) {
+               fs::rename(confOld, confNew);
+           }
+        }
     }
     if (fNetSpecific && GetBoolArg("-testnet", false))
         path /= "testnet3";
