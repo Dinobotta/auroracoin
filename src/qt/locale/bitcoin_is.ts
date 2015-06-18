@@ -702,7 +702,7 @@ Address: %4
     <message>
         <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
-        <translation>Breyta reikningsnúmeri/translation>
+        <translation>Breyta reikningsnúmeri</translation>
     </message>
     <message>
         <location line="+11"/>
