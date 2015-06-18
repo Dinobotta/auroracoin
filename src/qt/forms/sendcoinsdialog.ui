@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Send Coins</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">#SendCoinsDialog{border:none; background-color:transparent;}</string>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1,0">
    <property name="bottomMargin">
     <number>8</number>
@@ -30,6 +33,11 @@
        <width>16777215</width>
        <height>16777215</height>
       </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Roboto</family>
+      </font>
      </property>
      <property name="frameShape">
       <enum>QFrame::StyledPanel</enum>
@@ -79,6 +87,7 @@
             </property>
             <property name="font">
              <font>
+              <family>Helvetica</family>
               <weight>75</weight>
               <bold>true</bold>
              </font>
@@ -103,6 +112,11 @@
           </property>
           <item>
            <widget class="QPushButton" name="pushButtonCoinControl">
+            <property name="font">
+             <font>
+              <family>Helvetica</family>
+             </font>
+            </property>
             <property name="styleSheet">
              <string notr="true"/>
             </property>
@@ -113,6 +127,11 @@
           </item>
           <item>
            <widget class="QLabel" name="labelCoinControlAutomaticallySelected">
+            <property name="font">
+             <font>
+              <family>Helvetica</family>
+             </font>
+            </property>
             <property name="text">
              <string>automatically selected</string>
             </property>
@@ -125,6 +144,7 @@
            <widget class="QLabel" name="labelCoinControlInsuffFunds">
             <property name="font">
              <font>
+              <family>Helvetica</family>
               <weight>75</weight>
               <bold>true</bold>
              </font>
@@ -142,6 +162,11 @@
           </item>
           <item>
            <spacer name="horizontalSpacerCoinControl">
+            <property name="font">
+             <font>
+              <family>Roboto</family>
+             </font>
+            </property>
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
             </property>
@@ -173,7 +198,16 @@
            <string notr="true"/>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayoutCoinControl5">
-           <property name="margin">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
             <number>0</number>
            </property>
            <item>
@@ -206,6 +240,13 @@
                </property>
                <item row="0" column="0">
                 <widget class="QLabel" name="labelCoinControlQuantityText">
+                 <property name="font">
+                  <font>
+                   <family>Helvetica</family>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
                  <property name="styleSheet">
                   <string notr="true">font-weight:bold;</string>
                  </property>
@@ -221,7 +262,7 @@
                 <widget class="QLabel" name="labelCoinControlQuantity">
                  <property name="font">
                   <font>
-                   <family>Monospace</family>
+                   <family>Helvetica</family>
                    <pointsize>10</pointsize>
                   </font>
                  </property>
@@ -244,6 +285,13 @@
                </item>
                <item row="1" column="0">
                 <widget class="QLabel" name="labelCoinControlBytesText">
+                 <property name="font">
+                  <font>
+                   <family>Helvetica</family>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
                  <property name="styleSheet">
                   <string notr="true">font-weight:bold;</string>
                  </property>
@@ -256,7 +304,7 @@
                 <widget class="QLabel" name="labelCoinControlBytes">
                  <property name="font">
                   <font>
-                   <family>Monospace</family>
+                   <family>Helvetica</family>
                    <pointsize>10</pointsize>
                   </font>
                  </property>
@@ -295,6 +343,13 @@
                </property>
                <item row="0" column="0">
                 <widget class="QLabel" name="labelCoinControlAmountText">
+                 <property name="font">
+                  <font>
+                   <family>Helvetica</family>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
                  <property name="styleSheet">
                   <string notr="true">font-weight:bold;</string>
                  </property>
@@ -310,7 +365,7 @@
                 <widget class="QLabel" name="labelCoinControlAmount">
                  <property name="font">
                   <font>
-                   <family>Monospace</family>
+                   <family>Helvetica</family>
                    <pointsize>10</pointsize>
                   </font>
                  </property>
@@ -330,6 +385,13 @@
                </item>
                <item row="1" column="0">
                 <widget class="QLabel" name="labelCoinControlPriorityText">
+                 <property name="font">
+                  <font>
+                   <family>Helvetica</family>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
                  <property name="styleSheet">
                   <string notr="true">font-weight:bold;</string>
                  </property>
@@ -342,7 +404,7 @@
                 <widget class="QLabel" name="labelCoinControlPriority">
                  <property name="font">
                   <font>
-                   <family>Monospace</family>
+                   <family>Helvetica</family>
                    <pointsize>10</pointsize>
                   </font>
                  </property>
@@ -381,6 +443,13 @@
                </property>
                <item row="0" column="0">
                 <widget class="QLabel" name="labelCoinControlFeeText">
+                 <property name="font">
+                  <font>
+                   <family>Helvetica</family>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
                  <property name="styleSheet">
                   <string notr="true">font-weight:bold;</string>
                  </property>
@@ -396,7 +465,7 @@
                 <widget class="QLabel" name="labelCoinControlFee">
                  <property name="font">
                   <font>
-                   <family>Monospace</family>
+                   <family>Helvetica</family>
                    <pointsize>10</pointsize>
                   </font>
                  </property>
@@ -416,6 +485,13 @@
                </item>
                <item row="1" column="0">
                 <widget class="QLabel" name="labelCoinControlLowOutputText">
+                 <property name="font">
+                  <font>
+                   <family>Helvetica</family>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
                  <property name="styleSheet">
                   <string notr="true">font-weight:bold;</string>
                  </property>
@@ -428,7 +504,7 @@
                 <widget class="QLabel" name="labelCoinControlLowOutput">
                  <property name="font">
                   <font>
-                   <family>Monospace</family>
+                   <family>Helvetica</family>
                    <pointsize>10</pointsize>
                   </font>
                  </property>
@@ -467,6 +543,13 @@
                </property>
                <item row="0" column="0">
                 <widget class="QLabel" name="labelCoinControlAfterFeeText">
+                 <property name="font">
+                  <font>
+                   <family>Helvetica</family>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
                  <property name="styleSheet">
                   <string notr="true">font-weight:bold;</string>
                  </property>
@@ -482,7 +565,7 @@
                 <widget class="QLabel" name="labelCoinControlAfterFee">
                  <property name="font">
                   <font>
-                   <family>Monospace</family>
+                   <family>Helvetica</family>
                    <pointsize>10</pointsize>
                   </font>
                  </property>
@@ -502,6 +585,13 @@
                </item>
                <item row="1" column="0">
                 <widget class="QLabel" name="labelCoinControlChangeText">
+                 <property name="font">
+                  <font>
+                   <family>Helvetica</family>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
                  <property name="styleSheet">
                   <string notr="true">font-weight:bold;</string>
                  </property>
@@ -514,7 +604,7 @@
                 <widget class="QLabel" name="labelCoinControlChange">
                  <property name="font">
                   <font>
-                   <family>Monospace</family>
+                   <family>Helvetica</family>
                    <pointsize>10</pointsize>
                   </font>
                  </property>
@@ -555,6 +645,11 @@
           </property>
           <item>
            <widget class="QCheckBox" name="checkBoxCoinControlChange">
+            <property name="font">
+             <font>
+              <family>Helvetica</family>
+             </font>
+            </property>
             <property name="text">
              <string>custom change address</string>
             </property>
@@ -571,6 +666,11 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="font">
+             <font>
+              <family>Helvetica</family>
+             </font>
+            </property>
            </widget>
           </item>
           <item>
@@ -586,6 +686,11 @@
               <width>0</width>
               <height>0</height>
              </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Helvetica</family>
+             </font>
             </property>
             <property name="text">
              <string/>
@@ -617,6 +722,11 @@
    </item>
    <item>
     <widget class="QScrollArea" name="scrollArea">
+     <property name="font">
+      <font>
+       <family>Helvetica</family>
+      </font>
+     </property>
      <property name="widgetResizable">
       <bool>true</bool>
      </property>
@@ -625,12 +735,21 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>830</width>
-        <height>165</height>
+        <width>824</width>
+        <height>153</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2">
-       <property name="margin">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
         <number>0</number>
        </property>
        <item>
@@ -661,6 +780,11 @@
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
       <widget class="QPushButton" name="addButton">
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+        </font>
+       </property>
        <property name="toolTip">
         <string>Send to multiple recipients at once</string>
        </property>
@@ -683,6 +807,11 @@
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+        </font>
        </property>
        <property name="toolTip">
         <string>Remove all transaction fields</string>
@@ -709,6 +838,11 @@
        </property>
        <item>
         <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <family>Helvetica</family>
+          </font>
+         </property>
          <property name="text">
           <string>Balance:</string>
          </property>
@@ -716,6 +850,11 @@
        </item>
        <item>
         <widget class="QLabel" name="labelBalance">
+         <property name="font">
+          <font>
+           <family>Helvetica</family>
+          </font>
+         </property>
          <property name="cursor">
           <cursorShape>IBeamCursor</cursorShape>
          </property>
@@ -749,6 +888,11 @@
          <width>150</width>
          <height>0</height>
         </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+        </font>
        </property>
        <property name="toolTip">
         <string>Confirm the send action</string>
