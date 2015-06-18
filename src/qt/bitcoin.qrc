@@ -77,6 +77,7 @@
         <file alias="hi_IN">locale/bitcoin_hi_IN.ts</file>
         <file alias="hr">locale/bitcoin_hr.ts</file>
         <file alias="hu">locale/bitcoin_hu.ts</file>
+        <file alias="is">locale/bitcoin_is.ts</file>
         <file alias="it">locale/bitcoin_it.ts</file>
         <file alias="ja">locale/bitcoin_ja.ts</file>
         <file alias="la">locale/bitcoin_la.ts</file>
