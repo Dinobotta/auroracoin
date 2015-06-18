@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt_PT" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="pt_PT">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
@@ -8,12 +10,12 @@
         <translation>Sobre Auroracoin</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+49"/>
         <source>&lt;b&gt;Auroracoin&lt;/b&gt; version</source>
         <translation>Versão do &lt;b&gt;Auroracoin&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+57"/>
+        <location line="+73"/>
         <source>
 This is experimental software.
 
@@ -28,14 +30,23 @@ Distribuído sob uma licença de software MIT/X11, por favor verifique o ficheir
 Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no OpenSSL Toolkit (http://www.openssl.org/), software criptográfico escrito por Eric Young (eay@cryptsoft.com) e software UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
+        <location filename="../aboutdialog.cpp" line="+19"/>
         <source>Copyright</source>
         <translation>Copyright</translation>
     </message>
     <message>
         <location line="+0"/>
+        <source>The Bitcoin developers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>2011-%1 The Auroracoin developers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>The Auroracoin developers</source>
-        <translation>Os programadores Auroracoin</translation>
+        <translation type="obsolete">Os programadores Auroracoin</translation>
     </message>
 </context>
 <context>
@@ -46,42 +57,42 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>Livro de endereços</translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+36"/>
         <source>Double-click to edit address or label</source>
         <translation>Clique duas vezes para editar o endereço ou o rótulo</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+34"/>
         <source>Create a new address</source>
         <translation>Criar um novo endereço</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+21"/>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Copie o endereço selecionado para a área de transferência</translation>
     </message>
     <message>
-        <location line="-11"/>
+        <location line="-18"/>
         <source>&amp;New Address</source>
         <translation>&amp;Novo Endereço</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="+63"/>
+        <location filename="../addressbookpage.cpp" line="+67"/>
         <source>These are your Auroracoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Estes são os seus endereços Auroracoin para receber pagamentos. Poderá enviar um endereço diferente para cada remetente para poder identificar os pagamentos.</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
+        <location filename="../forms/addressbookpage.ui" line="+21"/>
         <source>&amp;Copy Address</source>
         <translation>&amp;Copiar Endereço</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+18"/>
         <source>Show &amp;QR Code</source>
         <translation>Mostrar Código &amp;QR</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+18"/>
         <source>Sign a message to prove you own a Auroracoin address</source>
         <translation>Assine uma mensagem para provar que é dono de um endereço Auroracoin</translation>
     </message>
@@ -91,12 +102,12 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>Assinar &amp;Mensagem</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <location line="+40"/>
         <source>Delete the currently selected address from the list</source>
         <translation>Apagar o endereço selecionado da lista</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+34"/>
         <source>Export the data in the current tab to a file</source>
         <translation>Exportar os dados no separador actual para um ficheiro</translation>
     </message>
@@ -106,7 +117,7 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>&amp;Exportar</translation>
     </message>
     <message>
-        <location line="-44"/>
+        <location line="-58"/>
         <source>Verify a message to ensure it was signed with a specified Auroracoin address</source>
         <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Auroracoin especificado</translation>
     </message>
@@ -116,7 +127,7 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>&amp;Verificar Mensagem</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+21"/>
         <source>&amp;Delete</source>
         <translation>E&amp;liminar</translation>
     </message>
@@ -141,7 +152,7 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>Enviar &amp;Moedas</translation>
     </message>
     <message>
-        <location line="+260"/>
+        <location line="+265"/>
         <source>Export Address Book Data</source>
         <translation>Exportar dados do Livro de Endereços</translation>
     </message>
@@ -164,7 +175,7 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
+        <location filename="../addresstablemodel.cpp" line="+148"/>
         <source>Label</source>
         <translation>Rótulo</translation>
     </message>
@@ -187,22 +198,22 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>Diálogo de Frase-Passe</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+31"/>
         <source>Enter passphrase</source>
         <translation>Escreva a frase de segurança</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+24"/>
         <source>New passphrase</source>
         <translation>Nova frase de segurança</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+24"/>
         <source>Repeat new passphrase</source>
         <translation>Repita a nova frase de segurança</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="+33"/>
+        <location filename="../askpassphrasedialog.cpp" line="+37"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Escreva a nova frase de seguraça da sua carteira. &lt;br/&gt; Por favor, use uma frase de &lt;b&gt;10 ou mais caracteres aleatórios,&lt;/b&gt; ou &lt;b&gt;oito ou mais palavras&lt;/b&gt;.</translation>
     </message>
@@ -323,17 +334,17 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
+        <location filename="../bitcoingui.cpp" line="+261"/>
         <source>Sign &amp;message...</source>
         <translation>Assinar &amp;mensagem...</translation>
     </message>
     <message>
-        <location line="+280"/>
+        <location line="+306"/>
         <source>Synchronizing with network...</source>
         <translation>Sincronizando com a rede...</translation>
     </message>
     <message>
-        <location line="-349"/>
+        <location line="-375"/>
         <source>&amp;Overview</source>
         <translation>Visã&amp;o geral</translation>
     </message>
@@ -408,7 +419,7 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>Mudar &amp;Palavra-passe...</translation>
     </message>
     <message>
-        <location line="+285"/>
+        <location line="+311"/>
         <source>Importing blocks from disk...</source>
         <translation>Importando blocos do disco...</translation>
     </message>
@@ -418,7 +429,7 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>Reindexando blocos no disco...</translation>
     </message>
     <message>
-        <location line="-347"/>
+        <location line="-373"/>
         <source>Send coins to a Auroracoin address</source>
         <translation>Enviar moedas para um endereço auroracoin</translation>
     </message>
@@ -453,18 +464,18 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>&amp;Verificar mensagem...</translation>
     </message>
     <message>
-        <location line="-165"/>
-        <location line="+530"/>
+        <location line="-194"/>
+        <location line="+585"/>
         <source>Auroracoin</source>
         <translation>Auroracoin</translation>
     </message>
     <message>
-        <location line="-530"/>
+        <location line="-585"/>
         <source>Wallet</source>
         <translation>Carteira</translation>
     </message>
     <message>
-        <location line="+101"/>
+        <location line="+130"/>
         <source>&amp;Send</source>
         <translation>&amp;Enviar</translation>
     </message>
@@ -524,25 +535,28 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+14"/>
         <source>Tabs toolbar</source>
         <translation>Barra de separadores</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+22"/>
         <location line="+10"/>
         <source>[testnet]</source>
         <translation>[rede de testes]</translation>
     </message>
     <message>
-        <location line="+47"/>
+        <location line="+63"/>
         <source>Auroracoin client</source>
         <translation>Cliente Auroracoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
         <source>%n active connection(s) to Auroracoin network</source>
-        <translation><numerusform>%n ligação ativa à rede Auroracoin</numerusform><numerusform>%n ligações ativas à rede Auroracoin</numerusform></translation>
+        <translation>
+            <numerusform>%n ligação ativa à rede Auroracoin</numerusform>
+            <numerusform>%n ligações ativas à rede Auroracoin</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+22"/>
@@ -562,17 +576,26 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     <message numerus="yes">
         <location line="+20"/>
         <source>%n hour(s)</source>
-        <translation><numerusform>%n hora</numerusform><numerusform>%n horas</numerusform></translation>
+        <translation>
+            <numerusform>%n hora</numerusform>
+            <numerusform>%n horas</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n day(s)</source>
-        <translation><numerusform>%n dia</numerusform><numerusform>%n dias</numerusform></translation>
+        <translation>
+            <numerusform>%n dia</numerusform>
+            <numerusform>%n dias</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n week(s)</source>
-        <translation><numerusform>%n semana</numerusform><numerusform>%n semanas</numerusform></translation>
+        <translation>
+            <numerusform>%n semana</numerusform>
+            <numerusform>%n semanas</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+4"/>
@@ -590,7 +613,7 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>Transações posteriores poderão não ser imediatamente visíveis.</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location line="+27"/>
         <source>Error</source>
         <translation>Erro</translation>
     </message>
@@ -605,12 +628,12 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>Informação</translation>
     </message>
     <message>
-        <location line="+70"/>
+        <location line="+74"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
         <translation>Esta transação tem um tamanho superior ao limite máximo. Poderá enviá-la pagando uma taxa de %1, que será entregue ao nó que processar a sua transação e ajudará a suportar a rede. Deseja pagar a taxa?</translation>
     </message>
     <message>
-        <location line="-140"/>
+        <location line="-149"/>
         <source>Up to date</source>
         <translation>Atualizado</translation>
     </message>
@@ -620,7 +643,7 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>Recuperando...</translation>
     </message>
     <message>
-        <location line="+113"/>
+        <location line="+121"/>
         <source>Confirm transaction fee</source>
         <translation>Confirme a taxa de transação</translation>
     </message>
@@ -670,7 +693,7 @@ Endereço: %4
         <translation>A carteira está &lt;b&gt;encriptada&lt;/b&gt; e atualmente &lt;b&gt;bloqueada&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
+        <location filename="../bitcoin.cpp" line="+113"/>
         <source>A fatal error occurred. Auroracoin can no longer continue safely and will quit.</source>
         <translation>Ocorreu um erro fatal. O Auroracoin não pode continuar com segurança e irá fechar.</translation>
     </message>
@@ -678,9 +701,279 @@ Endereço: %4
 <context>
     <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
+        <location filename="../clientmodel.cpp" line="+108"/>
         <source>Network Alert</source>
         <translation>Alerta da Rede</translation>
+    </message>
+</context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+        <location filename="../forms/coincontroldialog.ui" line="+14"/>
+        <source>Coin Control</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+37"/>
+        <source>Quantity:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+40"/>
+        <source>Bytes:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+56"/>
+        <source>Amount:</source>
+        <translation type="unfinished">Quantia:</translation>
+    </message>
+    <message>
+        <location line="+40"/>
+        <source>Priority:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+56"/>
+        <source>Fee:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+43"/>
+        <source>Low Output:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <location filename="../coincontroldialog.cpp" line="+592"/>
+        <source>no</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>After Fee:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+43"/>
+        <source>Change:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+78"/>
+        <source>(un)select all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Tree mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>List mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>(1 locked)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+52"/>
+        <source>Amount</source>
+        <translation type="unfinished">Quantia</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Address</source>
+        <translation type="unfinished">Endereço</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Date</source>
+        <translation type="unfinished">Data</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Confirmations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Confirmed</source>
+        <translation type="unfinished">Confirmada</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="-555"/>
+        <source>Copy address</source>
+        <translation type="unfinished">Copiar endereço</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy label</source>
+        <translation type="unfinished">Copiar rótulo</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location line="+26"/>
+        <source>Copy amount</source>
+        <translation type="unfinished">Copiar quantia</translation>
+    </message>
+    <message>
+        <location line="-25"/>
+        <source>Copy transaction ID</source>
+        <translation type="unfinished">Copiar ID da Transação</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Lock unspent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Unlock unspent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <source>Copy quantity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Copy fee</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy after fee</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy bytes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy low output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy change</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+323"/>
+        <source>highest</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>high</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>medium-high</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>medium</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>low-medium</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>low</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>lowest</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>(%1 locked)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+178"/>
+        <source>DUST</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>This label turns red, if the transaction size is bigger than 5000 bytes.
+
+ This means a fee of at least %1 per kb is required.
+
+ Can vary +/- 1 Byte per input.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Transactions with higher priority get more likely into a block.
+
+This label turns red, if the priority is smaller than &quot;medium&quot;.
+
+ This means a fee of at least %1 per kb is required.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>This label turns red, if any recipient receives an amount smaller than %1.
+
+ This means a fee of at least %2 is required. 
+
+ Amounts below 0.546 times the minimum relay fee are shown as DUST.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>This label turns red, if the change is smaller than %1.
+
+ This means a fee of at least %2 is required.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+37"/>
+        <location line="+66"/>
+        <source>(no label)</source>
+        <translation type="unfinished">(Sem rótulo)</translation>
+    </message>
+    <message>
+        <location line="-9"/>
+        <source>change from %1 (%2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>(change)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -691,27 +984,27 @@ Endereço: %4
         <translation>Editar Endereço</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+18"/>
         <source>&amp;Label</source>
         <translation>&amp;Rótulo</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+17"/>
         <source>The label associated with this address book entry</source>
         <translation>O rótulo a ser associado com esta entrada do livro de endereços</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+14"/>
         <source>&amp;Address</source>
         <translation>E&amp;ndereço</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+17"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
         <translation>O endereço associado com esta entrada do livro de endereços. Apenas poderá ser modificado para endereços de saída.</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
+        <location filename="../editaddressdialog.cpp" line="+25"/>
         <source>New receiving address</source>
         <translation>Novo endereço de entrada</translation>
     </message>
@@ -754,7 +1047,7 @@ Endereço: %4
 <context>
     <name>GUIUtil::HelpMessageBox</name>
     <message>
-        <location filename="../guiutil.cpp" line="+424"/>
+        <location filename="../guiutil.cpp" line="+502"/>
         <location line="+12"/>
         <source>Auroracoin-Qt</source>
         <translation>Auroracoin-Qt</translation>
@@ -803,12 +1096,12 @@ Endereço: %4
         <translation>Opções</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+23"/>
         <source>&amp;Main</source>
         <translation>&amp;Principal</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+81"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
         <translation>Taxa de transação opcional por KB que ajuda a assegurar que as suas transações serão processadas rapidamente. A maioria das transações tem 1 kB.</translation>
     </message>
@@ -818,7 +1111,7 @@ Endereço: %4
         <translation>Pagar &amp;taxa de transação</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="-85"/>
         <source>Automatically start Auroracoin after logging in to the system.</source>
         <translation>Começar o Auroracoin automaticamente ao iniciar sessão no sistema.</translation>
     </message>
@@ -828,7 +1121,7 @@ Endereço: %4
         <translation>&amp;Começar o Auroracoin ao iniciar o sistema</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+45"/>
         <source>Reset all client options to default.</source>
         <translation>Repôr todas as opções.</translation>
     </message>
@@ -839,6 +1132,21 @@ Endereço: %4
     </message>
     <message>
         <location line="+13"/>
+        <source>W&amp;allet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+52"/>
+        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Spend unconfirmed change  (experts only)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
         <source>&amp;Network</source>
         <translation>&amp;Rede</translation>
     </message>
@@ -953,27 +1261,37 @@ Endereço: %4
         <translation>Mostrar en&amp;dereços na lista de transações</translation>
     </message>
     <message>
-        <location line="+71"/>
+        <location line="+7"/>
+        <source>Whether to show coin control features or not.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Display coin &amp;control features (experts only!)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+79"/>
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+14"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Cancelar</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+17"/>
         <source>&amp;Apply</source>
         <translation>&amp;Aplicar</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
+        <location filename="../optionsdialog.cpp" line="+58"/>
         <source>default</source>
         <translation>padrão</translation>
     </message>
     <message>
-        <location line="+130"/>
+        <location line="+134"/>
         <source>Confirm options reset</source>
         <translation>Confirme a reposição de opções</translation>
     </message>
@@ -1013,53 +1331,53 @@ Endereço: %4
         <translation>Formulário</translation>
     </message>
     <message>
-        <location line="+50"/>
-        <location line="+166"/>
+        <location line="+63"/>
+        <location line="+215"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Auroracoin network after a connection is established, but this process has not completed yet.</source>
         <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede Auroracoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
     </message>
     <message>
-        <location line="-124"/>
+        <location line="-165"/>
         <source>Balance:</source>
         <translation>Saldo:</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+39"/>
         <source>Unconfirmed:</source>
         <translation>Não confirmado:</translation>
     </message>
     <message>
-        <location line="-78"/>
+        <location line="-104"/>
         <source>Wallet</source>
         <translation>Carteira</translation>
     </message>
     <message>
-        <location line="+107"/>
+        <location line="+143"/>
         <source>Immature:</source>
         <translation>Imaturo:</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+15"/>
         <source>Mined balance that has not yet matured</source>
         <translation>O saldo minado ainda não maturou</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+57"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
         <translation>&lt;b&gt;Transações recentes&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="-101"/>
+        <location line="-132"/>
         <source>Your current balance</source>
         <translation>O seu saldo atual</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+39"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
         <translation>Total de transações ainda não confirmadas, e que não estão contabilizadas ainda no seu saldo actual</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="+116"/>
+        <location filename="../overviewpage.cpp" line="+120"/>
         <location line="+1"/>
         <source>out of sync</source>
         <translation>fora de sincronia</translation>
@@ -1068,7 +1386,7 @@ Endereço: %4
 <context>
     <name>PaymentServer</name>
     <message>
-        <location filename="../paymentserver.cpp" line="+107"/>
+        <location filename="../paymentserver.cpp" line="+109"/>
         <source>Cannot start auroracoin: click-to-pay handler</source>
         <translation>Impossível começar o modo clicar-para-pagar com auroracoin:</translation>
     </message>
@@ -1081,32 +1399,32 @@ Endereço: %4
         <translation>Diálogo de Código QR</translation>
     </message>
     <message>
-        <location line="+59"/>
+        <location line="+74"/>
         <source>Request Payment</source>
         <translation>Requisitar Pagamento</translation>
     </message>
     <message>
-        <location line="+56"/>
+        <location line="+83"/>
         <source>Amount:</source>
         <translation>Quantia:</translation>
     </message>
     <message>
-        <location line="-44"/>
+        <location line="-66"/>
         <source>Label:</source>
         <translation>Rótulo:</translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+30"/>
         <source>Message:</source>
         <translation>Mensagem:</translation>
     </message>
     <message>
-        <location line="+71"/>
+        <location line="+97"/>
         <source>&amp;Save As...</source>
         <translation>&amp;Salvar Como...</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="+62"/>
+        <location filename="../qrcodedialog.cpp" line="+64"/>
         <source>Error encoding URI into QR Code.</source>
         <translation>Erro ao codificar URI em Código QR.</translation>
     </message>
@@ -1134,91 +1452,91 @@ Endereço: %4
 <context>
     <name>RPCConsole</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
+        <location filename="../forms/rpcconsole.ui" line="+324"/>
         <source>Client name</source>
         <translation>Nome do Cliente</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
+        <location line="-274"/>
         <location line="+23"/>
         <location line="+23"/>
-        <location line="+36"/>
-        <location line="+53"/>
         <location line="+23"/>
+        <location line="+117"/>
         <location line="+23"/>
-        <location filename="../rpcconsole.cpp" line="+339"/>
+        <location line="+138"/>
+        <location line="+37"/>
+        <location line="+79"/>
+        <location filename="../rpcconsole.cpp" line="+345"/>
         <source>N/A</source>
         <translation>N/D</translation>
     </message>
     <message>
-        <location line="-217"/>
+        <location line="-175"/>
         <source>Client version</source>
         <translation>Versão do Cliente</translation>
     </message>
     <message>
-        <location line="-45"/>
+        <location line="-307"/>
         <source>&amp;Information</source>
         <translation>&amp;Informação</translation>
     </message>
     <message>
-        <location line="+68"/>
+        <location line="+502"/>
         <source>Using OpenSSL version</source>
         <translation>Usando versão OpenSSL</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="-167"/>
         <source>Startup time</source>
         <translation>Tempo de início</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+51"/>
         <source>Network</source>
         <translation>Rede</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+37"/>
         <source>Number of connections</source>
         <translation>Número de ligações</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="-102"/>
         <source>On testnet</source>
         <translation>Em rede de testes</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+144"/>
         <source>Block chain</source>
         <translation>Cadeia de blocos</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-28"/>
         <source>Current number of blocks</source>
         <translation>Número actual de blocos</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="-175"/>
         <source>Estimated total blocks</source>
         <translation>Total estimado de blocos</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="-14"/>
         <source>Last block time</source>
         <translation>Tempo do último bloco</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="-90"/>
         <source>&amp;Open</source>
         <translation>&amp;Abrir</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+293"/>
         <source>Command-line options</source>
         <translation>Opções de linha de comandos</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-329"/>
         <source>Show the Auroracoin-Qt help message to get a list with possible Auroracoin command-line options.</source>
         <translation>Mostrar a mensagem de ajuda do Auroracoin-Qt para obter uma lista com possíveis opções a usar na linha de comandos.</translation>
     </message>
@@ -1228,37 +1546,37 @@ Endereço: %4
         <translation>Mo&amp;strar</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+388"/>
         <source>&amp;Console</source>
         <translation>&amp;Consola</translation>
     </message>
     <message>
-        <location line="-260"/>
+        <location line="-405"/>
         <source>Build date</source>
         <translation>Data de construção</translation>
     </message>
     <message>
-        <location line="-104"/>
+        <location line="-125"/>
         <source>Auroracoin - Debug window</source>
         <translation>Auroracoin - Janela de depuração</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <location line="+366"/>
         <source>Auroracoin Core</source>
         <translation>Núcleo Auroracoin</translation>
     </message>
     <message>
-        <location line="+279"/>
+        <location line="-161"/>
         <source>Debug log file</source>
         <translation>Ficheiro de registo de depuração</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-33"/>
         <source>Open the Auroracoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abrir o ficheiro de registo de depuração da pasta de dados actual. Isto pode demorar alguns segundos para ficheiros de registo maiores.</translation>
     </message>
     <message>
-        <location line="+102"/>
+        <location line="+436"/>
         <source>Clear console</source>
         <translation>Limpar consola</translation>
     </message>
@@ -1282,7 +1600,7 @@ Endereço: %4
     <name>SendCoinsDialog</name>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+124"/>
+        <location filename="../sendcoinsdialog.cpp" line="+183"/>
         <location line="+5"/>
         <location line="+5"/>
         <location line="+5"/>
@@ -1293,7 +1611,82 @@ Endereço: %4
         <translation>Enviar Moedas</translation>
     </message>
     <message>
-        <location line="+50"/>
+        <location line="+85"/>
+        <source>Coin Control Features</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>Inputs...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>automatically selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Insufficient funds!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+98"/>
+        <source>Quantity:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+45"/>
+        <source>Bytes:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+58"/>
+        <source>Amount:</source>
+        <translation type="unfinished">Quantia:</translation>
+    </message>
+    <message>
+        <location line="+42"/>
+        <source>Priority:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>medium</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+39"/>
+        <source>Fee:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+42"/>
+        <source>Low Output:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>no</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+39"/>
+        <source>After Fee:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+42"/>
+        <source>Change:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+55"/>
+        <source>custom change address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+135"/>
         <source>Send to multiple recipients at once</source>
         <translation>Enviar para múltiplos destinatários de uma vez</translation>
     </message>
@@ -1303,7 +1696,7 @@ Endereço: %4
         <translation>Adicionar &amp;Destinatário</translation>
     </message>
     <message>
-        <location line="+20"/>
+        <location line="+25"/>
         <source>Remove all transaction fields</source>
         <translation>Remover todos os campos da transação</translation>
     </message>
@@ -1313,17 +1706,21 @@ Endereço: %4
         <translation>&amp;Limpar Tudo</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location line="+27"/>
         <source>Balance:</source>
         <translation>Saldo:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
+        <location line="+15"/>
+        <source>123.456 AUR</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+31"/>
+        <source>123.456 BTC</source>
+        <translation type="obsolete">123.456 BTC</translation>
+    </message>
+    <message>
+        <location line="+36"/>
         <source>Confirm the send action</source>
         <translation>Confirme ação de envio</translation>
     </message>
@@ -1333,12 +1730,58 @@ Endereço: %4
         <translation>&amp;Enviar</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-59"/>
+        <location filename="../sendcoinsdialog.cpp" line="-175"/>
+        <source>Enter a Auroracoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation type="unfinished">Introduza um endereço Auroracoin (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Copy quantity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy amount</source>
+        <translation type="unfinished">Copiar quantia</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy fee</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy after fee</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy bytes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy low output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy change</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+87"/>
+        <location line="+2"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; para %2 (%3)</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Confirm send coins</source>
         <translation>Confirme envio de moedas</translation>
     </message>
@@ -1353,7 +1796,7 @@ Endereço: %4
         <translation> e </translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+27"/>
         <source>The recipient address is not valid, please recheck.</source>
         <translation>O endereço de destino não é válido, por favor verifique.</translation>
     </message>
@@ -1387,6 +1830,21 @@ Endereço: %4
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>Erro: A transação foi rejeitada. Isso poderá acontecer se algumas das moedas na sua carteira já tiverem sido gastas, se por exemplo tiver usado uma cópia do ficheiro wallet.dat e as moedas foram gastas na cópia mas não foram marcadas como gastas aqui.</translation>
     </message>
+    <message>
+        <location line="+271"/>
+        <source>Warning: Invalid Bitcoin address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>(no label)</source>
+        <translation type="unfinished">(Sem rótulo)</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Warning: Unknown change address</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
@@ -1396,33 +1854,37 @@ Endereço: %4
         <translation>Formulário</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+25"/>
         <source>A&amp;mount:</source>
         <translation>Qu&amp;antia:</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+20"/>
         <source>Pay &amp;To:</source>
         <translation>&amp;Pagar A:</translation>
     </message>
     <message>
-        <location line="+34"/>
         <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>O endereço para onde enviar o pagamento  (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation type="obsolete">O endereço para onde enviar o pagamento  (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
-        <location line="+60"/>
-        <location filename="../sendcoinsentry.cpp" line="+26"/>
+        <location line="+144"/>
+        <location filename="../sendcoinsentry.cpp" line="+30"/>
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Escreva um rótulo para este endereço para o adicionar ao seu livro de endereços</translation>
     </message>
     <message>
-        <location line="-78"/>
+        <location line="-113"/>
         <source>&amp;Label:</source>
         <translation>Rótu&amp;lo:</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+25"/>
+        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
         <source>Choose address from address book</source>
         <translation>Escolher endereço do livro de endereços</translation>
     </message>
@@ -1432,7 +1894,7 @@ Endereço: %4
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+14"/>
         <source>Paste address from clipboard</source>
         <translation>Cole endereço da área de transferência</translation>
     </message>
@@ -1442,7 +1904,7 @@ Endereço: %4
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+14"/>
         <source>Remove this recipient</source>
         <translation>Remover este destinatário</translation>
     </message>
@@ -1460,34 +1922,34 @@ Endereço: %4
         <translation>Assinaturas - Assinar / Verificar uma Mensagem</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+18"/>
         <source>&amp;Sign Message</source>
         <translation>A&amp;ssinar Mensagem</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+11"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Pode assinar mensagens com os seus endereços para provar que são seus. Tenha atenção ao assinar mensagens ambíguas, pois ataques de phishing podem tentar enganá-lo, de modo a assinar a sua identidade para os atacantes. Apenas assine declarações completamente detalhadas com as quais concorde.</translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+23"/>
         <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>O endereço a utilizar para assinar a mensagem (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+213"/>
+        <location line="+15"/>
+        <location line="+260"/>
         <source>Choose an address from the address book</source>
         <translation>Escolher endereço do livro de endereços</translation>
     </message>
     <message>
-        <location line="-203"/>
-        <location line="+213"/>
+        <location line="-250"/>
+        <location line="+260"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="-203"/>
+        <location line="-245"/>
         <source>Paste address from clipboard</source>
         <translation>Cole endereço da área de transferência</translation>
     </message>
@@ -1497,22 +1959,22 @@ Endereço: %4
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+17"/>
         <source>Enter the message you want to sign here</source>
         <translation>Escreva aqui a mensagem que deseja assinar</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+12"/>
         <source>Signature</source>
         <translation>Assinatura</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+33"/>
         <source>Copy the current signature to the system clipboard</source>
         <translation>Copiar a assinatura actual para a área de transferência</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+26"/>
         <source>Sign the message to prove you own this Auroracoin address</source>
         <translation>Assine uma mensagem para provar que é dono deste endereço Auroracoin</translation>
     </message>
@@ -1522,33 +1984,33 @@ Endereço: %4
         <translation>Assinar &amp;Mensagem</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+19"/>
         <source>Reset all sign message fields</source>
         <translation>Repôr todos os campos de assinatura de mensagem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+146"/>
+        <location line="+184"/>
         <source>Clear &amp;All</source>
         <translation>Limpar &amp;Tudo</translation>
     </message>
     <message>
-        <location line="-87"/>
+        <location line="-124"/>
         <source>&amp;Verify Message</source>
         <translation>&amp;Verificar Mensagem</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+11"/>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
         <translation>Introduza o endereço de assinatura, mensagem (assegure-se de copiar quebras de linha, espaços, tabuladores, etc. exactamente) e assinatura abaixo para verificar a mensagem. Tenha atenção para não ler mais na assinatura do que o que estiver na mensagem assinada, para evitar ser enganado por um atacante que se encontre entre si e quem assinou a mensagem.</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+26"/>
         <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>O endereço utilizado para assinar a mensagem (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+62"/>
         <source>Verify the message to ensure it was signed with the specified Auroracoin address</source>
         <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Auroracoin especificado</translation>
     </message>
@@ -1558,12 +2020,12 @@ Endereço: %4
         <translation>Verificar &amp;Mensagem</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+19"/>
         <source>Reset all verify message fields</source>
         <translation>Repôr todos os campos de verificação de mensagem</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
+        <location filename="../signverifymessagedialog.cpp" line="+31"/>
         <location line="+3"/>
         <source>Enter a Auroracoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>Introduza um endereço Auroracoin (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
@@ -1648,25 +2110,34 @@ Endereço: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <location filename="../splashscreen.cpp" line="+22"/>
+        <location filename="../splashscreen.cpp" line="+28"/>
+        <source>The Bitcoin developers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>The Auroracoin developers</source>
         <translation>Os programadores Auroracoin</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>[testnet]</source>
-        <translation>[rede de testes]</translation>
+        <translation type="obsolete">[rede de testes]</translation>
     </message>
 </context>
 <context>
     <name>TransactionDesc</name>
     <message>
-        <location filename="../transactiondesc.cpp" line="+20"/>
+        <location filename="../transactiondesc.cpp" line="+24"/>
         <source>Open until %1</source>
         <translation>Aberto até %1</translation>
     </message>
     <message>
         <location line="+6"/>
+        <source>conflicted</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>%1/offline</source>
         <translation>%1/desligado</translation>
     </message>
@@ -1688,7 +2159,10 @@ Endereço: %4
     <message numerus="yes">
         <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, transmitida através de %n nó</numerusform><numerusform>, transmitida através de %n nós</numerusform></translation>
+        <translation>
+            <numerusform>, transmitida através de %n nó</numerusform>
+            <numerusform>, transmitida através de %n nós</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1741,7 +2215,10 @@ Endereço: %4
     <message numerus="yes">
         <location line="-102"/>
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>matura daqui por %n bloco</numerusform><numerusform>matura daqui por %n blocos</numerusform></translation>
+        <translation>
+            <numerusform>matura daqui por %n bloco</numerusform>
+            <numerusform>matura daqui por %n blocos</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1822,12 +2299,15 @@ Endereço: %4
         <translation>, ainda não foi transmitida com sucesso</translation>
     </message>
     <message numerus="yes">
-        <location line="-35"/>
+        <location line="-37"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Aberta por mais %n bloco</numerusform><numerusform>Aberta por mais %n blocos</numerusform></translation>
+        <translation>
+            <numerusform>Aberta por mais %n bloco</numerusform>
+            <numerusform>Aberta por mais %n blocos</numerusform>
+        </translation>
     </message>
     <message>
-        <location line="+70"/>
+        <location line="+72"/>
         <source>unknown</source>
         <translation>desconhecido</translation>
     </message>
@@ -1835,12 +2315,12 @@ Endereço: %4
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
+        <location filename="../forms/transactiondescdialog.ui" line="+17"/>
         <source>Transaction details</source>
         <translation>Detalhes da transação</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+16"/>
         <source>This pane shows a detailed description of the transaction</source>
         <translation>Esta janela mostra uma descrição detalhada da transação</translation>
     </message>
@@ -1848,7 +2328,7 @@ Endereço: %4
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="+225"/>
+        <location filename="../transactiontablemodel.cpp" line="+229"/>
         <source>Date</source>
         <translation>Data</translation>
     </message>
@@ -1870,7 +2350,10 @@ Endereço: %4
     <message numerus="yes">
         <location line="+57"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Aberta por mais %n bloco</numerusform><numerusform>Aberta por mais %n blocos</numerusform></translation>
+        <translation>
+            <numerusform>Aberta por mais %n bloco</numerusform>
+            <numerusform>Aberta por mais %n blocos</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1895,7 +2378,10 @@ Endereço: %4
     <message numerus="yes">
         <location line="+8"/>
         <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation><numerusform>Saldo minado ficará disponível quando maturar, daqui por %n bloco</numerusform><numerusform>Saldo minado ficará disponível quando maturar, daqui por %n blocos</numerusform></translation>
+        <translation>
+            <numerusform>Saldo minado ficará disponível quando maturar, daqui por %n bloco</numerusform>
+            <numerusform>Saldo minado ficará disponível quando maturar, daqui por %n blocos</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1966,7 +2452,7 @@ Endereço: %4
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="+52"/>
+        <location filename="../transactionview.cpp" line="+56"/>
         <location line="+16"/>
         <source>All</source>
         <translation>Todas</translation>
@@ -2067,7 +2553,7 @@ Endereço: %4
         <translation>Mostrar detalhes da transação</translation>
     </message>
     <message>
-        <location line="+139"/>
+        <location line="+143"/>
         <source>Export Transaction Data</source>
         <translation>Exportar Dados das Transações</translation>
     </message>
@@ -2133,9 +2619,17 @@ Endereço: %4
     </message>
 </context>
 <context>
+    <name>WalletFrame</name>
+    <message>
+        <location filename="../walletframe.cpp" line="+27"/>
+        <source>No wallet has been loaded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+193"/>
+        <location filename="../walletmodel.cpp" line="+210"/>
         <source>Send Coins</source>
         <translation>Enviar Moedas</translation>
     </message>
@@ -2143,7 +2637,7 @@ Endereço: %4
 <context>
     <name>WalletView</name>
     <message>
-        <location filename="../walletview.cpp" line="+42"/>
+        <location filename="../walletview.cpp" line="+44"/>
         <source>&amp;Export</source>
         <translation>&amp;Exportar</translation>
     </message>
@@ -2153,7 +2647,7 @@ Endereço: %4
         <translation>Exportar os dados no separador actual para um ficheiro</translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+198"/>
         <source>Backup Wallet</source>
         <translation>Cópia de Segurança da Carteira</translation>
     </message>
@@ -2556,7 +3050,12 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Auroracoin&quot; admin@
         <translation>Verificando a carteira...</translation>
     </message>
     <message>
-        <location line="-69"/>
+        <location line="+4"/>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-73"/>
         <source>Imports blocks from external blk000??.dat file</source>
         <translation>Importar blocos de um ficheiro blk000??.dat externo</translation>
     </message>
@@ -2721,12 +3220,11 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Auroracoin&quot; admin@
         <translation>Atenção: Esta versão está obsoleta, é necessário actualizar!</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation>Necessita reconstruir as bases de dados usando -reindex para mudar -txindex</translation>
+        <translation type="obsolete">Necessita reconstruir as bases de dados usando -reindex para mudar -txindex</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat corrupta, recuperação falhou</translation>
     </message>

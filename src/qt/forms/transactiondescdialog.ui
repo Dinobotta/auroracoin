@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>TransactionDescDialog</class>
  <widget class="QDialog" name="TransactionDescDialog">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -13,9 +16,19 @@
   <property name="windowTitle">
    <string>Transaction details</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">#TransactionDescDialog{border:none}</string>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QTextEdit" name="detailText">
+     <property name="font">
+      <font>
+       <family>Helvetica</family>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
      <property name="toolTip">
       <string>This pane shows a detailed description of the transaction</string>
      </property>
@@ -26,6 +39,13 @@
    </item>
    <item>
     <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="font">
+      <font>
+       <family>Helvetica</family>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>
