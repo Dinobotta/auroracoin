@@ -37,12 +37,12 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+0"/>
         <source>The Bitcoin developers</source>
-        <translation type="unfinished"></translation>
+        <translation>De Bitcoin ontwikkelaars</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>2011-%1 The Auroracoin developers</source>
-        <translation type="unfinished"></translation>
+        <translation>2011-1% De Auroracoin ontwikkelaars</translation>
     </message>
     <message>
         <source>The Auroracoin developers</source>
@@ -69,22 +69,22 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+21"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopieer het huidig geselecteerde adres naar het klembord</translation>
+        <translation>Kopiëer het huidig geselecteerde adres naar het klembord</translation>
     </message>
     <message>
         <location line="-18"/>
         <source>&amp;New Address</source>
-        <translation>&amp;Nieuw Adres</translation>
+        <translation>&amp;Nieuw adres</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+67"/>
         <source>These are your Auroracoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn uw Auroracoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
+        <translation>Dit zijn uw Auroracoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor iedere afzender. Op deze manier kunt u bijhouden wie reeds aan u betaald heeft.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+21"/>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Kopiëer Adres</translation>
+        <translation>&amp;Kopiëer adres</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -99,7 +99,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>&amp;Onderteken Bericht</translation>
+        <translation>&amp;Onderteken bericht</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -124,7 +124,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+3"/>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Verifiëer Bericht</translation>
+        <translation>&amp;Verifiëer bericht</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -139,7 +139,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+13"/>
         <source>Copy &amp;Label</source>
-        <translation>Kopiëer &amp;Label</translation>
+        <translation>Kopiëer &amp;label</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -154,7 +154,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+265"/>
         <source>Export Address Book Data</source>
-        <translation>Exporteer Gegevens van het Adresboek</translation>
+        <translation>Exporteer gegevens van het adresboek</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -169,7 +169,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>Kon niet schrijven naar bestand %1.</translation>
+        <translation>Kon niet naar bestand %1 schrijven.</translation>
     </message>
 </context>
 <context>
@@ -215,7 +215,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+37"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Vul een nieuw wachtwoord in voor uw portemonnee. &lt;br/&gt; Gebruik een wachtwoord van &lt;b&gt;10 of meer lukrake karakters&lt;/b&gt;, of &lt;b&gt; acht of meer woorden&lt;/b&gt; . </translation>
+        <translation>Vul een nieuw wachtwoord in voor uw portemonnee. &lt;br/&gt; Gebruik een wachtwoord van &lt;b&gt;10 of meer willekeurige tekens&lt;/b&gt;, of &lt;b&gt; acht of meer woorden&lt;/b&gt; . </translation>
     </message>
     <message>
         <location line="+1"/>
@@ -306,7 +306,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <location line="+7"/>
         <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>De opgegeven wachtwoorden komen niet overeen</translation>
+        <translation>De opgegeven wachtwoorden komen niet overeen.</translation>
     </message>
     <message>
         <location line="-37"/>
@@ -406,17 +406,17 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Versleutel Portemonnee...</translation>
+        <translation>&amp;Versleutel portemonnee...</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup Portemonnee...</translation>
+        <translation>&amp;Backup portemonnee...</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Wijzig Wachtwoord</translation>
+        <translation>&amp;Wijzig wachtwoord</translation>
     </message>
     <message>
         <location line="+311"/>
@@ -554,8 +554,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <location line="+141"/>
         <source>%n active connection(s) to Auroracoin network</source>
         <translation>
-            <numerusform>%n actieve connectie naar Auroracoinnetwerk</numerusform>
-            <numerusform>%n actieve connecties naar Auroracoinnetwerk</numerusform>
+            <numerusform>%n actieve verbinding naar Auroracoinnetwerk</numerusform>
+            <numerusform>%n actieve verbindingen naar Auroracoinnetwerk</numerusform>
         </translation>
     </message>
     <message>
@@ -566,12 +566,12 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+12"/>
         <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation>%1 van %2 (geschat) blokken van de transactiehistorie verwerkt.</translation>
+        <translation>%1 van %2 (geschat) blokken van de transactiegeschiedenis verwerkt.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Processed %1 blocks of transaction history.</source>
-        <translation>%1 blokken van transactiehistorie verwerkt.</translation>
+        <translation>%1 blokken van transactiegeschiedenis verwerkt.</translation>
     </message>
     <message numerus="yes">
         <location line="+20"/>
