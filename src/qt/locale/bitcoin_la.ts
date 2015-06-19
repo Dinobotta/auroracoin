@@ -2295,7 +2295,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="-37"/>
         <source>Open for %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform></numerusform>
+            <numerusform>Aperi pro %n plure frusto</numerusform>
         </translation>
     </message>
     <message>

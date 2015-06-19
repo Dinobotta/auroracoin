@@ -69,7 +69,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location line="+21"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Afritaðu valda reikningsnúmerið yfir á forritið</translation>
+        <translation>Afritaðu valda reikningsnúmerið</translation>
     </message>
     <message>
         <location line="-18"/>
@@ -89,7 +89,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location line="+18"/>
         <source>Show &amp;QR Code</source>
-        <translation>Show &amp;QR Kóði</translation>
+        <translation>Sýna &amp;QR Kóða</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -99,7 +99,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>Sign &amp;Skilaboð</translation>
+        <translation>Undirritaðu &amp;Skilaboð</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -139,7 +139,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location line="+13"/>
         <source>Copy &amp;Label</source>
-        <translation>Copy &amp;Tilvísun</translation>
+        <translation>Afrita &amp;Tilvísun</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -149,7 +149,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location line="+1"/>
         <source>Send &amp;Coins</source>
-        <translation>Send &amp;Mynt</translation>
+        <translation>Senda &amp;Mynt</translation>
     </message>
     <message>
         <location line="+265"/>
@@ -200,22 +200,22 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location line="+31"/>
         <source>Enter passphrase</source>
-        <translation>Sláðu inn lykilorð/setningu</translation>
+        <translation>Sláðu inn lykilorð</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>New passphrase</source>
-        <translation>Nýtt lykilorð/setning</translation>
+        <translation>Nýtt lykilorð</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Repeat new passphrase</source>
-        <translation>Endurtakið nýtt lykilorð/setningu</translation>
+        <translation>Endurtakið nýtt lykilorð</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+37"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Sláðu inn nýja lykilorðið/setninguna í veskið.&lt;br/&gt;Vinsamlegast notið lykilorð/setningu með &lt;b&gt;10 eða fleyri stöfum&lt;/b&gt;, eða &lt;b&gt;átta eða fleyri orð&lt;/b&gt;.</translation>
+        <translation>Sláðu inn nýja lykilorðiðna í veskið.&lt;br/&gt;Vinsamlegast notið lykilorð með &lt;b&gt;10 eða fleyri stöfum&lt;/b&gt;, eða &lt;b&gt;átta eða fleyri orð&lt;/b&gt;.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -225,7 +225,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Þessi aðgerð krefst lykilorðs/setningar til að opna veskið.</translation>
+        <translation>Þessi aðgerð krefst lykilorðs til að opna veskið.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -235,7 +235,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Þessi aðgerð krefst lykilorðs/setningar til að aflæsa dulkóðun veskisins.</translation>
+        <translation>Þessi aðgerð krefst lykilorðs til að aflæsa dulkóðun veskisins.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -245,12 +245,12 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>Breyta lykilorði/setningu</translation>
+        <translation>Breyta lykilorði</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Sláðu inn gamla og nýja lykilorð/setningu veskisins</translation>
+        <translation>Sláðu inn gamla og nýja lykilorð veskisins</translation>
     </message>
     <message>
         <location line="+46"/>
@@ -260,7 +260,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AURORACOINS&lt;/b&gt;!</source>
-        <translation>Aðvörun: Ef þú dulritar veskið og tapar lykilorði/setningu, munt þú &lt;b&gt;TAPA ÖLLUM ÞÍNUM AURORACOIN&lt;/b&gt;!</translation>
+        <translation>Aðvörun: Ef þú dulritar veskið og tapar lykilorði, munt þú &lt;b&gt;TAPA ÖLLUM ÞÍNUM AURORACOIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -306,7 +306,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
         <location line="+7"/>
         <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>Lykilorð/setning passar ekki.</translation>
+        <translation>Lykilorð passar ekki.</translation>
     </message>
     <message>
         <location line="-37"/>
@@ -318,7 +318,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
         <location line="+11"/>
         <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Lykilorð/setning til að opna dulkóðun var rangt.</translation>
+        <translation>Lykilorð til að opna dulkóðun var rangt.</translation>
     </message>
     <message>
         <location line="-20"/>
@@ -328,7 +328,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Uppfærsla á lykilorð/setning tókst.</translation>
+        <translation>Uppfærsla á lykilorð tókst.</translation>
     </message>
 </context>
 <context>
@@ -416,7 +416,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Breyta lykilorði/setningu...</translation>
+        <translation>&amp;Breyta lykilorði...</translation>
     </message>
     <message>
         <location line="+311"/>
@@ -446,7 +446,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Breyta lykilorði/setningu sem er notuð til dulkóðunar veskisins</translation>
+        <translation>Breyta lykilorði sem er notuð til dulkóðunar veskisins</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1454,7 +1454,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/rpcconsole.ui" line="+324"/>
         <source>Client name</source>
-        <translation>Nafn tengiforrits</translation>
+        <translation>Nafn forrits</translation>
     </message>
     <message>
         <location line="-274"/>
@@ -2190,13 +2190,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+22"/>
         <location line="+58"/>
         <source>To</source>
-        <translation>To</translation>
+        <translation>Til</translation>
     </message>
     <message>
         <location line="-77"/>
         <location line="+2"/>
         <source>own address</source>
-        <translation>own address</translation>
+        <translation>eigin reikningsnúmer</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2550,7 +2550,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>Show transaction details</source>
-        <translation>Sýn nánair upplýsingar um færslu</translation>
+        <translation>Sýna nánair upplýsingar um færslu</translation>
     </message>
     <message>
         <location line="+143"/>
