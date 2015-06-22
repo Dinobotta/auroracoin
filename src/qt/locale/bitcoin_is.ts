@@ -215,7 +215,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+37"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Sláðu inn nýja lykilorðiðna í veskið.&lt;br/&gt;Vinsamlegast notið lykilorð með &lt;b&gt;10 eða fleyri stöfum&lt;/b&gt;, eða &lt;b&gt;átta eða fleyri orð&lt;/b&gt;.</translation>
+        <translation>Sláðu inn nýtt lykilorð í veskið.&lt;br/&gt;Vinsamlegast notið lykilorð með &lt;b&gt;10 eða fleyri stöfum&lt;/b&gt;, eða &lt;b&gt;átta eða fleyri orð&lt;/b&gt;.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1065,7 +1065,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>command-line options</source>
-        <translation>skipunar-lína valmöguleikar</translation>
+        <translation>skipunar-línu valmöguleikar</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1193,7 +1193,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+7"/>
         <source>SOCKS &amp;Version:</source>
-        <translation>SOCKS &amp;útgáfa:</translation>
+        <translation>SOCKS &amp;Útgáfa:</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1339,7 +1339,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-165"/>
         <source>Balance:</source>
-        <translation>Samtala:</translation>
+        <translation>Samtals:</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -1966,7 +1966,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+12"/>
         <source>Signature</source>
-        <translation>Signature</translation>
+        <translation>Undirskrift</translation>
     </message>
     <message>
         <location line="+33"/>

@@ -2112,7 +2112,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../splashscreen.cpp" line="+28"/>
         <source>The Bitcoin developers</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">De Bitcoin ontwikkelaars</translation>
     </message>
     <message>
         <location line="+1"/>
