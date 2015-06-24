@@ -37,12 +37,12 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location line="+0"/>
         <source>The Bitcoin developers</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Bitcoin þróunarteymið</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>2011-%1 The Auroracoin developers</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">2011-%1 Auroracoin þróunarteymið</translation>
     </message>
     <message>
         <source>The Auroracoin developers</source>
@@ -336,7 +336,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location filename="../bitcoingui.cpp" line="+261"/>
         <source>Sign &amp;message...</source>
-        <translation>Skrifaðu &amp;skilaboð...</translation>
+        <translation>Skrifaðu undir &amp;skilaboðin...</translation>
     </message>
     <message>
         <location line="+306"/>
@@ -711,17 +711,17 @@ Address: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="+14"/>
         <source>Coin Control</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mynt stilling/translation>
     </message>
     <message>
         <location line="+37"/>
         <source>Quantity:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Magn:</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Bytes:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Bæt</translation>
     </message>
     <message>
         <location line="+56"/>
@@ -731,53 +731,53 @@ Address: %4
     <message>
         <location line="+40"/>
         <source>Priority:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Forgangur:</translation>
     </message>
     <message>
         <location line="+56"/>
         <source>Fee:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Þóknun:</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Low Output:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lágt útflæði</translation>
     </message>
     <message>
         <location line="+24"/>
         <location filename="../coincontroldialog.cpp" line="+592"/>
         <source>no</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">nei</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>After Fee:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Eftir Þóknun:</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Change:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Skiptimynt:</translation>
     </message>
     <message>
         <location line="+78"/>
         <source>(un)select all</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(af) velja allt</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Tree mode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Tré viðmót</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>List mode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lista viðmót</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>(1 locked)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(1 læst)</translation>
     </message>
     <message>
         <location line="+52"/>
@@ -797,7 +797,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Confirmations</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Staðfestingar</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -807,7 +807,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Priority</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Forgangur</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="-555"/>
@@ -833,97 +833,97 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Lock unspent</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Læsa óeyddu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Unlock unspent</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Aflæsa óeyddu</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Copy quantity</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Afrita magn</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Copy fee</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Afrita þóknun</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy after fee</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Afrita eftir þóknun</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy bytes</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Afrita bæt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy priority</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Afrita forgang</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy low output</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Afrita lágt útflæði</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy change</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Afrita skiptimynt</translation>
     </message>
     <message>
         <location line="+323"/>
         <source>highest</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">hæsta</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>high</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">hátt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>medium-high</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">meðal-hátt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>medium</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">meðal</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>low-medium</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">lágt-meðal</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>low</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">lágt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>lowest</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">lægsta</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>(%1 locked)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(1% læst)</translation>
     </message>
     <message>
         <location line="+178"/>
         <source>DUST</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">RYK</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>yes</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">já</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -932,7 +932,11 @@ Address: %4
  This means a fee of at least %1 per kb is required.
 
  Can vary +/- 1 Byte per input.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Þetta merki verður rautt, ef færslan er stærri en 5000 bæt.
+		
+ Þetta þýðir að það þarf hið minnsta þóknun upp á %1 per kb.
+
+ Getur verið mismunandi +/- 1 Bæt per innskráningu.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -941,7 +945,11 @@ Address: %4
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
  This means a fee of at least %1 per kb is required.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Færslur með hærri forgangi eru líklegri til að rata inn í blokk.
+ 
+Þetta merki verður rautt, ef forgangur er minni en &quot;meðal&quot;.
+
+ Þetta þýðir að þóknun upp á hið minnsta %1 per kb er nauðsynleg.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -950,14 +958,21 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
  This means a fee of at least %2 is required. 
 
  Amounts below 0.546 times the minimum relay fee are shown as DUST.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">
+		Þetta merki verður rautt, ef enhver viðtakandi fær upphæð smærri en %1.
+		
+ Þetta þýðir að þóknun upp á hið minnsta %2 er nauðsynleg.
+ 
+ Upphæð undir 0.546 sinnum lágmarks þóknun eru sýndar sem RYK.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This label turns red, if the change is smaller than %1.
 
  This means a fee of at least %2 is required.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Þetta merki verður rautt, ef skiptimynt er undir %1.
+
+ Þetta þýðir að þóknun verður að vera hið minnsta %2.</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -968,12 +983,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <source>change from %1 (%2)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">skiptimynt frá %1 (%2)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>(change)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(skiptimynt)</translation>
     </message>
 </context>
 <context>
@@ -1133,17 +1148,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+13"/>
         <source>W&amp;allet</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">V&amp;eski</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ef þú afvirkjar eyðslu á óstaðfestri skiptimynt, getur skiptimyntin frá færslunni ekki nýst fyrr en færslan hefur hið minnsta eina staðfestingu. Þetta hefur einnig áhrif á hvernig heildarupphæðin er reiknuð</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Spend unconfirmed change  (experts only)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Eydd óstaðfest skiptimynt (einungis fyrir sérfræðinga)</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1263,12 +1278,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+7"/>
         <source>Whether to show coin control features or not.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hvort á að sýna myntstillingar eða ekki.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Display coin &amp;control features (experts only!)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Sýn mynt &amp: stillingar (einungis fyrir sérfræðinga!)</translation>
     </message>
     <message>
         <location line="+79"/>
@@ -1359,7 +1374,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+15"/>
         <source>Mined balance that has not yet matured</source>
-        <translation>Samtala úr námuvinnslu er ekki enn tilbúin</translation>
+        <translation>Samtals úr námuvinnslu er ekki enn tilbúin</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -1369,7 +1384,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-132"/>
         <source>Your current balance</source>
-        <translation>Núverandu samtala</translation>
+        <translation>Núverandu heildarstaða</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -1613,32 +1628,32 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+85"/>
         <source>Coin Control Features</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mynt stillingar</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>Inputs...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Innflæði...</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>automatically selected</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">valið sjálfvirkt</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Insufficient funds!</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ekki næg innistæða!</translation>
     </message>
     <message>
         <location line="+98"/>
         <source>Quantity:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Magn:</translation>
     </message>
     <message>
         <location line="+45"/>
         <source>Bytes:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Bæt:</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -1648,42 +1663,42 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+42"/>
         <source>Priority:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Forgangur:</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>medium</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">meðal</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>Fee:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Þóknun:</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>Low Output:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lágt Útflæði</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>no</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">nei</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>After Fee:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Eftir Þóknun:</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>Change:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Skiptimynt:</translation>
     </message>
     <message>
         <location line="+55"/>
         <source>custom change address</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">breyta reikningsnúmeri</translation>
     </message>
     <message>
         <location line="+135"/>
@@ -1708,12 +1723,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+27"/>
         <source>Balance:</source>
-        <translation>Samtala:</translation>
+        <translation>Samtals:</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>123.456 AUR</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">123.456 AUR</translation>
     </message>
     <message>
         <source>123.456 BTC</source>
@@ -1732,12 +1747,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-175"/>
         <source>Enter a Auroracoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Sláðu inn Auroracoin reikningsnúmer (t.d. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Copy quantity</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Afrita magn</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1747,32 +1762,32 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>Copy fee</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Afrita þóknun</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy after fee</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Afrita eftir þóknun</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy bytes</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Afrita bæt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy priority</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Afrita forgang</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy low output</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Afrita lágt útflæði</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy change</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Afrita skiptimynt</translation>
     </message>
     <message>
         <location line="+87"/>
@@ -1833,7 +1848,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+271"/>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Viðvörun: Ógilt Bitcoin reikningsnúmer</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1843,7 +1858,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+4"/>
         <source>Warning: Unknown change address</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Viðvörun: Óþekkt breytt reikningsnúmer</translation>
     </message>
 </context>
 <context>
@@ -1881,7 +1896,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+25"/>
         <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Reikningsnúmerið sem á að senda greiðslu til (t.d. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2033,7 +2048,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-2"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Klikkaðu á &quot;Skráðu skilaboð&quot; til að búa til undirskrift</translation>
+        <translation>Klikkaðu á &quot;Staðfestu skilaboðin&quot; til að búa til undirskrift</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2112,7 +2127,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../splashscreen.cpp" line="+28"/>
         <source>The Bitcoin developers</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Bitcoin þróunarteymið</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2134,7 +2149,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+6"/>
         <source>conflicted</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">árekstrar</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2475,7 +2490,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>Last month</source>
-        <translation>Síðasit mánuður</translation>
+        <translation>Síðasti mánuður</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2623,7 +2638,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../walletframe.cpp" line="+27"/>
         <source>No wallet has been loaded.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Engu veski hefur verið hlaðið upp</translation>
     </message>
 </context>
 <context>
@@ -3052,7 +3067,7 @@ til dæmis; alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@fo
     <message>
         <location line="+4"/>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Þú verður að endurbyggja gagnagrunnin með því að nota -reindex til að bryeta -txindex</translation>
     </message>
     <message>
         <location line="-73"/>
