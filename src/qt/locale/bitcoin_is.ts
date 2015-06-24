@@ -711,7 +711,7 @@ Address: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="+14"/>
         <source>Coin Control</source>
-        <translation>Mynt stilling/translation>
+        <translation>Mynt stilling</translation>
     </message>
     <message>
         <location line="+37"/>
