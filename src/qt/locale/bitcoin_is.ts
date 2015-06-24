@@ -1283,7 +1283,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>Display coin &amp;control features (experts only!)</source>
-        <translation>Sýn mynt &amp: stillingar (einungis fyrir sérfræðinga!)</translation>
+        <translation>Sýn mynt &amp; stillingar (einungis fyrir sérfræðinga!)</translation>
     </message>
     <message>
         <location line="+79"/>
