@@ -1283,7 +1283,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>Display coin &amp;control features (experts only!)</source>
-        <translation>Sýn mynt &amp; stillingar (einungis fyrir sérfræðinga!)</translation>
+        <translation>Sýna mynt &amp; stillingar (einungis fyrir sérfræðinga!)</translation>
     </message>
     <message>
         <location line="+79"/>
@@ -1718,7 +1718,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>Clear &amp;All</source>
-        <translation>Hreinsa &amp;Allt</translation>
+        <translation>Hreinsa &amp;allt</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1876,7 +1876,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+20"/>
         <source>Pay &amp;To:</source>
-        <translation>Millifæra &amp;Á:</translation>
+        <translation>Millifæra &amp;á:</translation>
     </message>
     <message>
         <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
@@ -2007,7 +2007,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+3"/>
         <location line="+184"/>
         <source>Clear &amp;All</source>
-        <translation>Hreinsa &amp;Allt</translation>
+        <translation>Hreinsa &amp;allt</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -2570,7 +2570,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+143"/>
         <source>Export Transaction Data</source>
-        <translation>Keyra út færslu upplýsingar</translation>
+        <translation>Flytja út færslu upplýsingar</translation>
     </message>
     <message>
         <location line="+1"/>
