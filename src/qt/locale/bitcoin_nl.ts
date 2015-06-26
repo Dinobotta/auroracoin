@@ -37,12 +37,12 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+0"/>
         <source>The Bitcoin developers</source>
-        <translation type="unfinished"></translation>
+        <translation>De Bitcoin ontwikkelaars</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>2011-%1 The Auroracoin developers</source>
-        <translation type="unfinished"></translation>
+        <translation>2011-1% De Auroracoin ontwikkelaars</translation>
     </message>
     <message>
         <source>The Auroracoin developers</source>
@@ -69,22 +69,22 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+21"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopieer het huidig geselecteerde adres naar het klembord</translation>
+        <translation>Kopiëer het huidig geselecteerde adres naar het klembord</translation>
     </message>
     <message>
         <location line="-18"/>
         <source>&amp;New Address</source>
-        <translation>&amp;Nieuw Adres</translation>
+        <translation>&amp;Nieuw adres</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+67"/>
         <source>These are your Auroracoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn uw Auroracoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
+        <translation>Dit zijn uw Auroracoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor iedere afzender. Op deze manier kunt u bijhouden wie reeds aan u betaald heeft.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+21"/>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Kopiëer Adres</translation>
+        <translation>&amp;Kopiëer adres</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -99,7 +99,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>&amp;Onderteken Bericht</translation>
+        <translation>&amp;Onderteken bericht</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -124,7 +124,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+3"/>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Verifiëer Bericht</translation>
+        <translation>&amp;Verifiëer bericht</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -139,7 +139,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+13"/>
         <source>Copy &amp;Label</source>
-        <translation>Kopiëer &amp;Label</translation>
+        <translation>Kopiëer &amp;label</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -154,7 +154,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+265"/>
         <source>Export Address Book Data</source>
-        <translation>Exporteer Gegevens van het Adresboek</translation>
+        <translation>Exporteer gegevens van het adresboek</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -169,7 +169,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>Kon niet schrijven naar bestand %1.</translation>
+        <translation>Kon niet naar bestand %1 schrijven.</translation>
     </message>
 </context>
 <context>
@@ -215,7 +215,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+37"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Vul een nieuw wachtwoord in voor uw portemonnee. &lt;br/&gt; Gebruik een wachtwoord van &lt;b&gt;10 of meer lukrake karakters&lt;/b&gt;, of &lt;b&gt; acht of meer woorden&lt;/b&gt; . </translation>
+        <translation>Vul een nieuw wachtwoord in voor uw portemonnee. &lt;br/&gt; Gebruik een wachtwoord van &lt;b&gt;10 of meer willekeurige tekens&lt;/b&gt;, of &lt;b&gt; acht of meer woorden&lt;/b&gt; . </translation>
     </message>
     <message>
         <location line="+1"/>
@@ -306,7 +306,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <location line="+7"/>
         <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>De opgegeven wachtwoorden komen niet overeen</translation>
+        <translation>De opgegeven wachtwoorden komen niet overeen.</translation>
     </message>
     <message>
         <location line="-37"/>
@@ -406,17 +406,17 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Versleutel Portemonnee...</translation>
+        <translation>&amp;Versleutel portemonnee...</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup Portemonnee...</translation>
+        <translation>&amp;Backup portemonnee...</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Wijzig Wachtwoord</translation>
+        <translation>&amp;Wijzig wachtwoord</translation>
     </message>
     <message>
         <location line="+311"/>
@@ -554,8 +554,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <location line="+141"/>
         <source>%n active connection(s) to Auroracoin network</source>
         <translation>
-            <numerusform>%n actieve connectie naar Auroracoinnetwerk</numerusform>
-            <numerusform>%n actieve connecties naar Auroracoinnetwerk</numerusform>
+            <numerusform>%n actieve verbinding naar Auroracoinnetwerk</numerusform>
+            <numerusform>%n actieve verbindingen naar Auroracoinnetwerk</numerusform>
         </translation>
     </message>
     <message>
@@ -566,12 +566,12 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+12"/>
         <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation>%1 van %2 (geschat) blokken van de transactiehistorie verwerkt.</translation>
+        <translation>%1 van %2 (geschat) blokken van de transactiegeschiedenis verwerkt.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Processed %1 blocks of transaction history.</source>
-        <translation>%1 blokken van transactiehistorie verwerkt.</translation>
+        <translation>%1 blokken van transactiegeschiedenis verwerkt.</translation>
     </message>
     <message numerus="yes">
         <location line="+20"/>
@@ -716,119 +716,119 @@ Adres: %4
     <message>
         <location line="+37"/>
         <source>Quantity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoeveelheid:</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Bytes:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bytes:</translation>
     </message>
     <message>
         <location line="+56"/>
         <source>Amount:</source>
-        <translation type="unfinished">Bedrag:</translation>
+        <translation>Bedrag:</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Priority:</source>
-        <translation type="unfinished"></translation>
+        <translation>Prioriteit:</translation>
     </message>
     <message>
         <location line="+56"/>
         <source>Fee:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fooi:</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Low Output:</source>
-        <translation type="unfinished"></translation>
+        <translation>Lage uitvoer:</translation>
     </message>
     <message>
         <location line="+24"/>
         <location filename="../coincontroldialog.cpp" line="+592"/>
         <source>no</source>
-        <translation type="unfinished"></translation>
+        <translation>nee</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>After Fee:</source>
-        <translation type="unfinished"></translation>
+        <translation>Na fooi:</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Change:</source>
-        <translation type="unfinished"></translation>
+        <translation>Wisselgeld:</translation>
     </message>
     <message>
         <location line="+78"/>
         <source>(un)select all</source>
-        <translation type="unfinished"></translation>
+        <translation>(de)selecteer alles</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Tree mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Boommodus</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>List mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Lijstmodus</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>(1 locked)</source>
-        <translation type="unfinished"></translation>
+        <translation>(1 vastgezet)</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Amount</source>
-        <translation type="unfinished">Bedrag</translation>
+        <translation>Bedrag</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Address</source>
-        <translation type="unfinished">Adres</translation>
+        <translation>Adres</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Date</source>
-        <translation type="unfinished">Datum</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Confirmations</source>
-        <translation type="unfinished"></translation>
+        <translation>Bevestigingen</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Confirmed</source>
-        <translation type="unfinished">Bevestigd</translation>
+        <translation>Bevestigd</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Prioriteit</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="-555"/>
         <source>Copy address</source>
-        <translation type="unfinished">Kopieer adres</translation>
+        <translation>Kopieer adres</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy label</source>
-        <translation type="unfinished">Kopieer label</translation>
+        <translation>Kopieer label</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+26"/>
         <source>Copy amount</source>
-        <translation type="unfinished">Kopieer bedrag</translation>
+        <translation>Kopieer bedrag</translation>
     </message>
     <message>
         <location line="-25"/>
         <source>Copy transaction ID</source>
-        <translation type="unfinished">Kopieer transactie-ID</translation>
+        <translation>Kopieer transactie-ID</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -843,12 +843,12 @@ Adres: %4
     <message>
         <location line="+22"/>
         <source>Copy quantity</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieer hoeveelheid</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Copy fee</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieer fooi</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -858,12 +858,12 @@ Adres: %4
     <message>
         <location line="+1"/>
         <source>Copy bytes</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieer bytes</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieer prioriteit</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -873,57 +873,57 @@ Adres: %4
     <message>
         <location line="+1"/>
         <source>Copy change</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieer wisselgeld</translation>
     </message>
     <message>
         <location line="+323"/>
         <source>highest</source>
-        <translation type="unfinished"></translation>
+        <translation>hoogste</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>high</source>
-        <translation type="unfinished"></translation>
+        <translation>hoog</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>medium-high</source>
-        <translation type="unfinished"></translation>
+        <translation>boven middel</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>medium</source>
-        <translation type="unfinished"></translation>
+        <translation>middel</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>low-medium</source>
-        <translation type="unfinished"></translation>
+        <translation>onder middel</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>low</source>
-        <translation type="unfinished"></translation>
+        <translation>laag</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>lowest</source>
-        <translation type="unfinished"></translation>
+        <translation>laagste</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>(%1 locked)</source>
-        <translation type="unfinished"></translation>
+        <translation>(%1 vastgezet)</translation>
     </message>
     <message>
         <location line="+178"/>
         <source>DUST</source>
-        <translation type="unfinished"></translation>
+        <translation>STOF</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>yes</source>
-        <translation type="unfinished"></translation>
+        <translation>ja</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -963,7 +963,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+37"/>
         <location line="+66"/>
         <source>(no label)</source>
-        <translation type="unfinished">(geen label)</translation>
+        <translation>(geen label)</translation>
     </message>
     <message>
         <location line="-9"/>
@@ -1041,7 +1041,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation>Genereren nieuwe sleutel mislukt.</translation>
+        <translation>Genereren van nieuwe sleutel mislukt.</translation>
     </message>
 </context>
 <context>
@@ -1070,7 +1070,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+4"/>
         <source>UI options</source>
-        <translation>gebruikersinterfaceopties</translation>
+        <translation>Gebruikersinterfaceopties</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1128,7 +1128,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>&amp;Reset Options</source>
-        <translation>&amp;Reset Opties</translation>
+        <translation>&amp;Reset opties</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1193,7 +1193,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+7"/>
         <source>SOCKS &amp;Version:</source>
-        <translation>SOCKS-&amp;Versie:</translation>
+        <translation>SOCKS-&amp;versie:</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1233,7 +1233,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation>Taal &amp;Gebruikersinterface:</translation>
+        <translation>Taal &amp;gebruikersinterface:</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1446,7 +1446,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+0"/>
         <source>PNG Images (*.png)</source>
-        <translation>PNG-Afbeeldingen (*.png)</translation>
+        <translation>PNG-afbeeldingen (*.png)</translation>
     </message>
 </context>
 <context>
@@ -1563,7 +1563,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+366"/>
         <source>Auroracoin Core</source>
-        <translation>Auroracoin Kern</translation>
+        <translation>Auroracoin Core</translation>
     </message>
     <message>
         <location line="-161"/>
@@ -1618,37 +1618,37 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+25"/>
         <source>Inputs...</source>
-        <translation type="unfinished"></translation>
+        <translation>Invoeren...</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>automatically selected</source>
-        <translation type="unfinished"></translation>
+        <translation>automatisch geselecteerd</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Insufficient funds!</source>
-        <translation type="unfinished"></translation>
+        <translation>Onvoldoende saldo!</translation>
     </message>
     <message>
         <location line="+98"/>
         <source>Quantity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoeveelheid:</translation>
     </message>
     <message>
         <location line="+45"/>
         <source>Bytes:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bytes:</translation>
     </message>
     <message>
         <location line="+58"/>
         <source>Amount:</source>
-        <translation type="unfinished">Bedrag:</translation>
+        <translation>Bedrag:</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>Priority:</source>
-        <translation type="unfinished"></translation>
+        <translation>Prioriteit:</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1658,7 +1658,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+39"/>
         <source>Fee:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fooi:</translation>
     </message>
     <message>
         <location line="+42"/>
@@ -1668,22 +1668,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+19"/>
         <source>no</source>
-        <translation type="unfinished"></translation>
+        <translation>nee</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>After Fee:</source>
-        <translation type="unfinished"></translation>
+        <translation>Na fooi:</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>Change:</source>
-        <translation type="unfinished"></translation>
+        <translation>Wisselgeld:</translation>
     </message>
     <message>
         <location line="+55"/>
         <source>custom change address</source>
-        <translation type="unfinished"></translation>
+        <translation>aangepast wisselgeld adres</translation>
     </message>
     <message>
         <location line="+135"/>
@@ -1693,7 +1693,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>Voeg &amp;Ontvanger Toe</translation>
+        <translation>Voeg &amp;ontvanger Toe</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -1703,7 +1703,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>Clear &amp;All</source>
-        <translation>Verwijder &amp;Alles</translation>
+        <translation>Verwijder &amp;alles</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1713,7 +1713,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+15"/>
         <source>123.456 AUR</source>
-        <translation type="unfinished"></translation>
+        <translation>123.456 AUR</translation>
     </message>
     <message>
         <source>123.456 BTC</source>
@@ -1732,7 +1732,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-175"/>
         <source>Enter a Auroracoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation type="unfinished">Vul een Auroracoinadres in (bijv. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Vul een Auroracoinadres in (bijv. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1742,12 +1742,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>Copy amount</source>
-        <translation type="unfinished">Kopieer bedrag</translation>
+        <translation>Kopieer bedrag</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy fee</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieer fooi</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1924,7 +1924,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+18"/>
         <source>&amp;Sign Message</source>
-        <translation>O&amp;nderteken Bericht</translation>
+        <translation>O&amp;nderteken bericht</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1981,7 +1981,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>Onderteken &amp;Bericht</translation>
+        <translation>Onderteken &amp;bericht</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1992,12 +1992,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+3"/>
         <location line="+184"/>
         <source>Clear &amp;All</source>
-        <translation>Verwijder &amp;Alles</translation>
+        <translation>Verwijder &amp;alles</translation>
     </message>
     <message>
         <location line="-124"/>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Verifiëer Bericht</translation>
+        <translation>&amp;Verifiëer bericht</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -2017,7 +2017,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>Verify &amp;Message</source>
-        <translation>Verifiëer &amp;Bericht</translation>
+        <translation>Verifiëer &amp;bericht</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -2033,7 +2033,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-2"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Klik &quot;Onderteken Bericht&quot; om de handtekening te genereren</translation>
+        <translation>Klik &quot;Onderteken bericht&quot; om de handtekening te genereren</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2112,7 +2112,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../splashscreen.cpp" line="+28"/>
         <source>The Bitcoin developers</source>
-        <translation type="unfinished"></translation>
+        <translation>De Bitcoin ontwikkelaars</translation>
     </message>
     <message>
         <location line="+1"/>
