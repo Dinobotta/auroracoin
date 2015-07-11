@@ -65,7 +65,8 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
     rpcConsole(0),
     prevBlocks(0)
 {
-    setFixedSize(920, 550);
+    //setFixedSize(920, 550);
+    setWindowState(Qt::WindowMaximized);
     setWindowTitle(tr("Auroracoin") + " - " + tr("Wallet"));
 
     qApp->setStyleSheet("QMainWindow { border:none; font-family:Helvetica; background-image: url(:/images/background); }"
@@ -83,10 +84,10 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
                         "QLabel#toolbarLogo {padding-top: 25px; padding-bottom: 20px; margin-left:20px;}"
 
                         //Styles for the menu
-                        "QMenu { padding-bottom:10px; }"
+                        "QMenu { padding-bottom:10px; padding-left:1px; padding-right:1px; }"
                         "QMenu::item { color:#00695a; background-color:#ffffff; }"
                         "QMenu::item:selected { background:#d2d2d2; }"
-                        "QMenuBar { background:#00695a; color:#ffffff; }"
+                        "QMenuBar { background:#00695a; color:#ffffff; padding-bottom:1px;}"
                         "QMenuBar::item { font-size:12px; padding-bottom:12px; padding-top:12px; padding-left:15px; padding-right:15px; color:ffffff; background-color:#00695a; }"
                         "QMenuBar::item:selected { font:bold; }");
 
