@@ -630,7 +630,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location line="+74"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Þessi færsla er yfir stærðarmörkum. Þú getur samt sent hana gegn %1 þóknun, sem fer til námuvinnslu tölva, sem staðfesta færslur og hjálpa vil við að halda uppi netinu. Vilt þú greiða þóknunina?</translation>
+        <translation>Þessi færsla er yfir stærðarmörkum. Þú getur samt sent hana gegn %1 þóknun, sem fer til námuvinnslu tölva, sem staðfesta færslur og hjálpar til við að halda uppi netinu. Vilt þú greiða þóknunina?</translation>
     </message>
     <message>
         <location line="-149"/>
