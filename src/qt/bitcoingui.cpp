@@ -65,18 +65,17 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
     rpcConsole(0),
     prevBlocks(0)
 {
-    //setFixedSize(920, 550);
-    setWindowState(Qt::WindowMaximized);
+    restoreWindowGeometry();
     setWindowTitle(tr("Auroracoin") + " - " + tr("Wallet"));
 
     qApp->setStyleSheet("QMainWindow { border:none; font-family:Helvetica; background-image: url(:/images/background); }"
 
                         //Style for all the action buttons
-                        "QPushButton{ border-style:solid; background-color:#00695a; color:#ffffff; border-radius:3px; padding:6px;}"
-                        "QPushButton:pressed{ border-style: inset;}"
+                        //"QPushButton{ border-style:solid; background-color:#00695a; color:#ffffff; border-radius:3px; padding:6px;}"
+                        //"QPushButton:pressed{ border-style: inset;}"
 
                         //Styles for the vertical tool bar
-                        "QToolBar { border:none; height:100%; padding-top:20px; color:#00695a; min-width:250px; max-width:250px; margin-left:20px; background-color: rgb(255, 255, 255, 100);}"
+                        "QToolBar { border:none; height:100%; padding-top:20px; color:#00695a; min-width:150px; max-width:200px; margin-left:20px; background-color: rgb(255, 255, 255, 100);}"
                         "QToolBar QToolButton { font-family:Roboto; font-style:normal; font-size:13px; background:transparent; border:none; padding-left:30px; padding-right:30px; width:120px; color:#00695a; text-align:left; margin-left:20px;}"
                         "QToolBar QToolButton:hover {background-color: rgb(98, 98, 98, 30);}"
                         "QToolBar QToolButton:checked {background-color: rgb(98, 98, 98, 30);}"
@@ -87,8 +86,9 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
                         "QMenu { padding-bottom:10px; padding-left:1px; padding-right:1px; }"
                         "QMenu::item { color:#00695a; background-color:#ffffff; }"
                         "QMenu::item:selected { background:#d2d2d2; }"
+                        "QMenu::separator {background: #ffffff; }"
                         "QMenuBar { background:#00695a; color:#ffffff; padding-bottom:1px;}"
-                        "QMenuBar::item { font-size:12px; padding-bottom:12px; padding-top:12px; padding-left:15px; padding-right:15px; color:ffffff; background-color:#00695a; }"
+                        "QMenuBar::item { font-size:12px; padding-bottom:6px; padding-top:6px; padding-left:15px; padding-right:15px; color:#ffffff; background-color:#00695a; }"
                         "QMenuBar::item:selected { font:bold; }");
 
 
