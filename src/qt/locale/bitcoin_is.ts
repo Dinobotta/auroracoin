@@ -89,7 +89,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location line="+18"/>
         <source>Show &amp;QR Code</source>
-        <translation>Sýna &amp;QR Kóða</translation>
+        <translation>Sýna &amp;QR kóði</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -99,7 +99,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>Undirritaðu &amp;Skilaboð</translation>
+        <translation>Undirritaðu &amp;skilaboð</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -195,7 +195,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation>Lykilorð setning</translation>
+        <translation>Lykilorð</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -517,7 +517,7 @@ Dreift undir MIT/X11 hugbúnaðar leyfi, sjá http://www.opensource.org/licenses
     <message>
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Auroracoin addresses</source>
-        <translation>Staðfestu skilaboð til að ganga úr skugga um að þau staðfest með Auroracoin reikningsnúmeri</translation>
+        <translation>Staðfestu skilaboðin til að ganga úr skugga um að þau séu staðfest með Auroracoin reikningsnúmeri</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -752,7 +752,7 @@ Address: %4
     <message>
         <location line="+35"/>
         <source>After Fee:</source>
-        <translation>Eftir Þóknun:</translation>
+        <translation>Eftir þóknun:</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1678,7 +1678,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+42"/>
         <source>Low Output:</source>
-        <translation>Lágt Útflæði</translation>
+        <translation>Lágt útflæði</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1688,7 +1688,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+39"/>
         <source>After Fee:</source>
-        <translation>Eftir Þóknun:</translation>
+        <translation>Eftir þóknun:</translation>
     </message>
     <message>
         <location line="+42"/>
@@ -1708,7 +1708,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>Bæta við &amp;Viðtakendum</translation>
+        <translation>Bæta við &amp;viðtakendum</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -1976,7 +1976,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+17"/>
         <source>Enter the message you want to sign here</source>
-        <translation>Enter the message you want to sign here</translation>
+        <translation>Sláðu inn skilaboð hér</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -2032,7 +2032,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>Verify &amp;Message</source>
-        <translation>Staðfestu &amp;Skilaboð</translation>
+        <translation>Staðfestu &amp;skilaboð</translation>
     </message>
     <message>
         <location line="+19"/>
